@@ -220,7 +220,7 @@ img {
     color: var(--accent);
     position: relative;
 }
-.nav-menu-link::after {
+.nav-link::after {
     content: '';
     position: absolute;
     bottom: -1px;
@@ -234,10 +234,9 @@ img {
     background-color: #404bbf;
     background: transparent;
 }
-
-/* .nav-menu-link.current::after {
+.nav-menu-link.current::after {
     background: var(--accent);
-} */
+}
 /*  #endregion Header */
 
 /* #region Contacts */
