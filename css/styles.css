@@ -301,7 +301,7 @@ img {
     color: var(--white);
     border-radius: var(--radius-sm);
     border: none;
-    transition: var(--iris) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--dark-grey) 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn:hover,
 .btn:focus {
@@ -456,6 +456,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white);
+}
+.footer-socials {
+    gap: 24px;
 }
 .footer-socials .socials-link:hover,
 .footer-socials .socials-link:focus {
