@@ -458,7 +458,7 @@ img {
     color: var(--white);
 }
 .footer-socials {
-    gap: 24px;
+    gap: 16px;
 }
 .footer-socials .socials-link:hover,
 .footer-socials .socials-link:focus {
